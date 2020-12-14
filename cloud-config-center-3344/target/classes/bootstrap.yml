@@ -1,0 +1,42 @@
+server:
+  port: 3344
+
+spring:
+  application:
+    name: cloud-config-center         # 注册进Eureka服务器的微服务名
+  cloud:
+    config:
+      server:
+        # 通过地址+仓库+分支唯一确定
+        git:
+          # 地址
+#          uri: https://github.com/zzyybs/springcloud-config.git
+          uri: https://github.com/zhaolijian/cloud2020_config.git
+          # 搜索目录（仓库）
+          search-paths:
+            - springcloud-config
+          username: 820913569@qq.com
+          password: zhao5305233
+      # 分支
+      label: master
+
+  # rabbitmq相关配置
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+eureka:
+  client:
+    # 默认是true，所以写不写都可以
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka   #集群版
+
+# rabbitmq相关配置，暴露bus刷新配置的端点
+management:
+  endpoints:  # 暴露bus刷新配置的端点
+    web:
+      exposure:
+        include: 'bus-refresh'

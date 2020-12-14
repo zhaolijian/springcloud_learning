@@ -3,6 +3,7 @@ package com.atguigu.springcloud.controller;
 import com.atguigu.springcloud.entities.CommonResult;
 import com.atguigu.springcloud.entities.Payment;
 import com.atguigu.springcloud.lb.LoadBalancer;
+import lombok.experimental.PackagePrivate;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
@@ -64,5 +65,10 @@ private static final String PAYMENT_URL = "http://CLOUD-PAYMENT-SERVICE";   //�
         // 打印实例uri
         log.info(String.valueOf(serviceInstance.getUri()));
         return restTemplate.getForObject(uri + "/payment/lb", String.class);
+    }
+
+    @GetMapping("/consumer/payment/zipkin")
+    public String paymentZipkin(){
+        return restTemplate.getForObject("http://localhost:8001" + "payment/zipkin/", String.class);
     }
 }

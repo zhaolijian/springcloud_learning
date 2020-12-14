@@ -27,6 +27,22 @@
       <module>cloud-consumer-hystrix-dashboard9001</module>
       <module>cloud-gateway-gateway9527</module>
       <module>cloud-config-center-3344</module>
+      <module>cloud-config-client-3355</module>
+      <module>cloud-config-client-3366</module>
+      <module>cloud-stream-rabbitmq-provider8801</module>
+    <module>cloud-stream-rabbitmq-consumer8802</module>
+    <module>cloud-stream-rabbitmq-consumer8803</module>
+      <module>cloud-alibaba-provider-payment9001</module>
+    <module>cloud-alibaba-provider-payment9002</module>
+      <module>cloud-alibaba-consumer-nacos-order83</module>
+      <module>cloud-alibaba-config-nacos-client3377</module>
+      <module>cloud-alibaba-sentinel-service8401</module>
+      <module>cloud-alibaba-provider-payment9003</module>
+    <module>cloud-alibaba-provider-payment9004</module>
+    <module>cloud-alibaba-consumer-nacos-order84</module>
+      <module>seata-order-service2001</module>
+    <module>seata-storage-service2002</module>
+    <module>seata-account-service2003</module>
   </modules>
 
   <name>Maven</name>
@@ -115,16 +131,16 @@
     </dependencies>
   </dependencyManagement>
 
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
-        <configuration>
-          <fork>true</fork>
-          <addResources>true</addResources>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
+<!--  <build>-->
+<!--    <plugins>-->
+<!--      <plugin>-->
+<!--        <groupId>org.springframework.boot</groupId>-->
+<!--        <artifactId>spring-boot-maven-plugin</artifactId>-->
+<!--        <configuration>-->
+<!--          <fork>true</fork>-->
+<!--          <addResources>true</addResources>-->
+<!--        </configuration>-->
+<!--      </plugin>-->
+<!--    </plugins>-->
+<!--  </build>-->
 </project>

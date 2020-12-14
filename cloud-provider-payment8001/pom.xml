@@ -18,6 +18,11 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
+<!--        包含了sleuth（监控）+zipkin（展示）-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
 <!--        引入自己定义的api通用包，可以使用payment支付entity（maven clean install后即可使用）-->
         <dependency>
             <groupId>com.atguigu.springcloud</groupId>

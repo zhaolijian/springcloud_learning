@@ -23,20 +23,123 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92263001-4069-4400-9de6-0e18d306fa4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-config-center-3344/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-center-3344/src/main/java/com/atguigu/springcloud/ConfigCenterMain3344.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-center-3344/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/java/com/atguigu/springcloud/HystrixDashboardMain9001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard9001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/test/java/T2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/atguigu/springcloud/GateWayMain9527.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/atguigu/springcloud/config/GateWayConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/atguigu/springcloud/filter/MyLogGateWayFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/atguigu/springcloud/PaymentHystrixMain8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/atguigu/springcloud/PaymentHystrixMain8001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/com/atguigu/springcloud/PaymentHystrixMain8001.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/classes/com/atguigu/springcloud/PaymentHystrixMain8001.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/java/com/atguigu/springboot/alibaba/NacosConfigClientMain3377.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/java/com/atguigu/springboot/alibaba/controller/ConfigClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos-client3377/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-consumer-nacos-order83/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-consumer-nacos-order83/src/main/java/com/atguigu/springcloud/alibaba/OrderNacosMain83.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-consumer-nacos-order83/src/main/java/com/atguigu/springcloud/alibaba/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-consumer-nacos-order83/src/main/java/com/atguigu/springcloud/alibaba/controller/OrderNacosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-consumer-nacos-order83/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-consumer-nacos-order84/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-consumer-nacos-order84/src/main/java/com/atguigu/springcloud/OrderNacosMain84.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-consumer-nacos-order84/src/main/java/com/atguigu/springcloud/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-consumer-nacos-order84/src/main/java/com/atguigu/springcloud/controller/CircleBreakerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-consumer-nacos-order84/src/main/java/com/atguigu/springcloud/service/PaymentFallbackService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-consumer-nacos-order84/src/main/java/com/atguigu/springcloud/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-consumer-nacos-order84/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment9001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment9001/src/main/java/com/atguigu/springcloud/alibaba/PaymentMain9001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment9001/src/main/java/com/atguigu/springcloud/alibaba/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment9001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment9002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment9002/src/main/java/com/atguigu/springcloud/PaymentMain9002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment9002/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment9002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment9003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment9003/src/main/java/com/atguigu/springcloud/PaymentMain9003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment9003/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment9003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment9004/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment9004/src/main/java/com/atguigu/springcloud/PaymentMain9004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment9004/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-provider-payment9004/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-sentinel-service8401/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/alibaba/MainApp8401.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/alibaba/controller/FlowLimitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/alibaba/controller/RateLimitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-sentinel-service8401/src/main/java/com/atguigu/springcloud/alibaba/myhandler/CustomerBlockHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-sentinel-service8401/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-center-3344/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/java/com/atguigu/springcloud/ConfigClientMain3355.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/java/com/atguigu/springcloud/controller/ConfigClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3366/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3366/src/main/java/com/atguigu/springcloud/ConfigClientMain3366.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3366/src/main/java/com/atguigu/springcloud/controller/ConfigClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client-3366/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/java/com/atguigu/springcloud/StreamMQMain8802.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/java/com/atguigu/springcloud/controller/ReceiveMessageListenerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/src/main/java/com/atguigu/springcloud/StreamMQMain8803.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/src/main/java/com/atguigu/springcloud/controller/ReceiveMessageListenerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java/com/atguigu/springcloud/StreamMQMain8801.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java/com/atguigu/springcloud/controller/sendMessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java/com/atguigu/springcloud/service/IMessageProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/java/com/atguigu/springcloud/service/impl/MessageProviderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/springcloud/alibaba/SeataAccountMainApp2003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/springcloud/alibaba/config/DataSourceProxyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/springcloud/alibaba/config/MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/springcloud/alibaba/controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/springcloud/alibaba/dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/springcloud/alibaba/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/springcloud/alibaba/domain/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/springcloud/alibaba/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/springcloud/alibaba/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/resources/file.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/resources/mapper/AccountMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/resources/registry.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/springcloud/alibaba/SeataOrderMainApp2001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/springcloud/alibaba/config/DataSourceProxyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/springcloud/alibaba/controller/orderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/springcloud/alibaba/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/springcloud/alibaba/domain/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/springcloud/alibaba/domain/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/springcloud/alibaba/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/springcloud/alibaba/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/springcloud/alibaba/service/StorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/atguigu/springcloud/alibaba/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/resources/file.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/resources/registry.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/springcloud/alibaba/SeataStorageServiceApplication2002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/springcloud/alibaba/config/DataSourceProxyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/springcloud/alibaba/controller/StorageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/springcloud/alibaba/dao/StorageDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/springcloud/alibaba/domain/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/springcloud/alibaba/domain/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/springcloud/alibaba/service/StorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/springcloud/alibaba/service/impl/StorageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/resources/file.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/resources/mapper/StorageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/resources/registry.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center-3344/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center-3344/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center-3344/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center-3344/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/atguigu/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/springcloud/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/atguigu/springcloud/controller/PaymentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudconsumerorder80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudconsumerorder80/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudconsumerorder80/src/main/java/com/atguigu/springcloud/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudconsumerorder80/src/main/java/com/atguigu/springcloud/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudconsumerorder80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudconsumerorder80/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudconsumerorder80/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudconsumerorder80/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudconsumerorder80/target/classes/com/atguigu/springcloud/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloudconsumerorder80/target/classes/com/atguigu/springcloud/controller/OrderController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +154,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="spring-beans.schema" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -83,11 +187,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.25086308" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -96,14 +201,21 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/springcloud/alibaba" />
+      <recent name="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/atguigu/springcloud/alibaba/config" />
+      <recent name="$PROJECT_DIR$/seata-account-service2003/src/main/resources" />
+      <recent name="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/atguigu/springcloud/alibaba" />
+      <recent name="$PROJECT_DIR$/seata-storage-service2002/src/main/resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.springcloud.alibaba.config" />
+      <recent name="com.atguigu.springcloud.alibaba.domain" />
       <recent name="com.atguigu.springcloud.dao" />
       <recent name="com.atguigu.springcloud.controller" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources" />
-      <recent name="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/atguigu/springcloud" />
-      <recent name="$PROJECT_DIR$/cloudconsumerorder80/src/main/java/com/atguigu/springboot" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/seata-order-service2001/src/main/resources/mapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -113,48 +225,43 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigCenterMain3344">
-    <configuration name="T2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="T2" />
-      <module name="cloud-eureka-server7001" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConfigCenterMain3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-config-center-3344" />
+  <component name="RunManager" selected="Spring Boot.SeataAccountMainApp2003">
+    <configuration name="PaymentController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.springcloud.controller.PaymentController" />
+      <module name="cloud-alibaba-provider-payment9003" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.springcloud.*" />
+          <option name="PATTERN" value="com.atguigu.springcloud.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigCenterMain3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-config-center-3344" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.ConfigCenterMain3344" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ConfigClientMain3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-config-client-3355" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.ConfigClientMain3355" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientMain3366" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-config-client-3366" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.ConfigClientMain3366" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-eureka-server7001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.EurekaMain7001" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -167,15 +274,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GateWayMain9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="GateWayMain9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-gateway-gateway9527" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.GateWayMain9527" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixDashboardMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-hystrix-dashboard9001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.HystrixDashboardMain9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApp8401" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-alibaba-sentinel-service8401" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.springcloud.*" />
+          <option name="PATTERN" value="com.atguigu.springcloud.alibaba.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.GateWayMain9527" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.alibaba.MainApp8401" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosConfigClientMain3377" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-alibaba-config-nacos-client3377" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springboot.alibaba.NacosConfigClientMain3377" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -208,6 +336,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderNacosMain83" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-alibaba-consumer-nacos-order83" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.alibaba.OrderNacosMain83" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderNacosMain84" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-alibaba-consumer-nacos-order84" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.OrderNacosMain84" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderZKMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-consumerzk-order80" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.OrderZKMain80" />
@@ -215,14 +363,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentHystrixMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="PaymentHystrixMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-hystrix-payment8001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.PaymentHystrixMain8001" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -256,13 +398,95 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-alibaba-provider-payment9001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.alibaba.PaymentMain9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-alibaba-provider-payment9002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.PaymentMain9002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain9003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-alibaba-provider-payment9003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.PaymentMain9003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain9004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-alibaba-provider-payment9004" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.PaymentMain9004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeataAccountMainApp2003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="seata-account-service2003" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.springcloud.alibaba.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.alibaba.SeataAccountMainApp2003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeataOrderMainApp2001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="seata-order-service2001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.alibaba.SeataOrderMainApp2001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeataStorageServiceApplication2002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="seata-storage-service2002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.alibaba.SeataStorageServiceApplication2002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamMQMain8801" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-stream-rabbitmq-provider8801" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.StreamMQMain8801" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamMQMain8802" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-stream-rabbitmq-consumer8802" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.StreamMQMain8802" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamMQMain8803" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-stream-rabbitmq-consumer8803" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.springcloud.StreamMQMain8803" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ConfigCenterMain3344" />
-        <item itemvalue="Spring Boot.GateWayMain9527" />
-        <item itemvalue="Application.T2" />
-        <item itemvalue="Spring Boot.EurekaMain7001" />
-        <item itemvalue="Spring Boot.PaymentHystrixMain8001" />
+        <item itemvalue="Spring Boot.SeataAccountMainApp2003" />
+        <item itemvalue="Spring Boot.MainApp8401" />
+        <item itemvalue="Spring Boot.OrderNacosMain84" />
+        <item itemvalue="Application.PaymentController" />
+        <item itemvalue="Spring Boot.PaymentMain9002" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +518,21 @@
       <workItem from="1606918060268" duration="1767000" />
       <workItem from="1606975229665" duration="10471000" />
       <workItem from="1607074961469" duration="6818000" />
-      <workItem from="1607148128634" duration="8213000" />
+      <workItem from="1607148128634" duration="8774000" />
+      <workItem from="1607161648039" duration="6436000" />
+      <workItem from="1607178746150" duration="769000" />
+      <workItem from="1607222562218" duration="3134000" />
+      <workItem from="1607239153131" duration="11346000" />
+      <workItem from="1607323268783" duration="4076000" />
+      <workItem from="1607342732103" duration="3469000" />
+      <workItem from="1607414880184" duration="5485000" />
+      <workItem from="1607494174835" duration="7613000" />
+      <workItem from="1607585440559" duration="14448000" />
+      <workItem from="1607650924634" duration="12387000" />
+      <workItem from="1607845925265" duration="5217000" />
+      <workItem from="1607866927192" duration="368000" />
+      <workItem from="1607914357168" duration="18626000" />
+      <workItem from="1607949651994" duration="1274000" />
     </task>
     <servers />
   </component>
@@ -314,10 +552,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="328" y="105" key="#Project_Structure" timestamp="1607157176665">
+    <state x="328" y="105" key="#Project_Structure" timestamp="1607928438339">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="328" y="105" key="#Project_Structure/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607157176665" />
+    <state x="328" y="105" key="#Project_Structure/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607928438339" />
+    <state x="328" y="105" key="#Project_Structure/1680.25.1024.743/0.0.1680.1050@0.0.1680.1050" timestamp="1607670928725" />
     <state x="121" y="285" key="#SQL_Dialects" timestamp="1606630979084">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -326,117 +565,129 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="237" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1606631091539" />
-    <state x="622" y="183" key="#com.intellij.ide.util.MemberChooser" timestamp="1607153350564">
+    <state x="622" y="183" key="#com.intellij.ide.util.MemberChooser" timestamp="1607673917584">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="533" y="157" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1606628943558" />
-    <state x="622" y="183" key="#com.intellij.ide.util.MemberChooser/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607153350564" />
-    <state x="187" y="457" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1606896828462">
+    <state x="622" y="183" key="#com.intellij.ide.util.MemberChooser/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607673917584" />
+    <state x="187" y="457" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1607666744454">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="160" y="392" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.900@0.0.1440.900" timestamp="1606641377147" />
-    <state x="187" y="457" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1606896828462" />
+    <state x="187" y="457" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607666744454" />
     <state x="413" y="352" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1606641314081">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="413" y="352" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1440.900@0.0.1440.900" timestamp="1606641314081" />
-    <state width="1212" height="411" key="GridCell.Tab.0.bottom" timestamp="1607160816484">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="211" key="GridCell.Tab.0.bottom" timestamp="1607949631736">
+      <screen x="1680" y="0" width="1024" height="768" />
     </state>
     <state width="1145" height="269" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606655767442" />
-    <state width="1346" height="254" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606997197037" />
+    <state width="1252" height="837" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1607867295750" />
     <state width="1346" height="430" key="GridCell.Tab.0.bottom/0.25.1680.951@0.25.1680.951" timestamp="1607003562483" />
-    <state width="1212" height="411" key="GridCell.Tab.0.bottom/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607160816484" />
-    <state width="1346" height="322" key="GridCell.Tab.0.bottom/1680.25.1024.743/0.0.1680.1050@0.0.1680.1050" timestamp="1606741247240" />
-    <state width="1212" height="411" key="GridCell.Tab.0.bottom/1680.25.1024.743/0.25.1680.951@0.25.1680.951" timestamp="1607160803828" />
-    <state width="1212" height="411" key="GridCell.Tab.0.center" timestamp="1607160816482">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1252" height="2" key="GridCell.Tab.0.bottom/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607934684097" />
+    <state width="1638" height="211" key="GridCell.Tab.0.bottom/1680.0.1024.768/0.0.1680.1050@1680.0.1024.768" timestamp="1607949631736" />
+    <state width="1252" height="355" key="GridCell.Tab.0.bottom/1680.25.1024.743/0.0.1680.1050@0.0.1680.1050" timestamp="1607674858593" />
+    <state width="1252" height="355" key="GridCell.Tab.0.bottom/1680.25.1024.743/0.25.1680.951@0.25.1680.951" timestamp="1607671189984" />
+    <state width="1638" height="211" key="GridCell.Tab.0.center" timestamp="1607949631735">
+      <screen x="1680" y="0" width="1024" height="768" />
     </state>
     <state width="1145" height="269" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1606655767441" />
-    <state width="1346" height="254" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606997197034" />
+    <state width="1252" height="837" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1607867295750" />
     <state width="1346" height="430" key="GridCell.Tab.0.center/0.25.1680.951@0.25.1680.951" timestamp="1607003562482" />
-    <state width="1212" height="411" key="GridCell.Tab.0.center/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607160816482" />
-    <state width="1346" height="322" key="GridCell.Tab.0.center/1680.25.1024.743/0.0.1680.1050@0.0.1680.1050" timestamp="1606741247239" />
-    <state width="1212" height="486" key="GridCell.Tab.0.center/1680.25.1024.743/0.25.1680.951@0.25.1680.951" timestamp="1607089699556" />
-    <state width="1212" height="411" key="GridCell.Tab.0.left" timestamp="1607160816477">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1252" height="2" key="GridCell.Tab.0.center/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607934684095" />
+    <state width="1638" height="211" key="GridCell.Tab.0.center/1680.0.1024.768/0.0.1680.1050@1680.0.1024.768" timestamp="1607949631735" />
+    <state width="1252" height="355" key="GridCell.Tab.0.center/1680.25.1024.743/0.0.1680.1050@0.0.1680.1050" timestamp="1607674858592" />
+    <state width="1252" height="355" key="GridCell.Tab.0.center/1680.25.1024.743/0.25.1680.951@0.25.1680.951" timestamp="1607671189982" />
+    <state width="1638" height="211" key="GridCell.Tab.0.left" timestamp="1607949631734">
+      <screen x="1680" y="0" width="1024" height="768" />
     </state>
     <state width="1145" height="269" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1606655767441" />
-    <state width="1346" height="254" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606997197034" />
+    <state width="1252" height="837" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1607867295749" />
     <state width="1346" height="430" key="GridCell.Tab.0.left/0.25.1680.951@0.25.1680.951" timestamp="1607003562482" />
-    <state width="1212" height="411" key="GridCell.Tab.0.left/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607160816477" />
-    <state width="1346" height="322" key="GridCell.Tab.0.left/1680.25.1024.743/0.0.1680.1050@0.0.1680.1050" timestamp="1606741247239" />
-    <state width="1212" height="486" key="GridCell.Tab.0.left/1680.25.1024.743/0.25.1680.951@0.25.1680.951" timestamp="1607089699550" />
-    <state width="1212" height="411" key="GridCell.Tab.0.right" timestamp="1607160816483">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1252" height="2" key="GridCell.Tab.0.left/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607934684093" />
+    <state width="1638" height="211" key="GridCell.Tab.0.left/1680.0.1024.768/0.0.1680.1050@1680.0.1024.768" timestamp="1607949631734" />
+    <state width="1252" height="355" key="GridCell.Tab.0.left/1680.25.1024.743/0.0.1680.1050@0.0.1680.1050" timestamp="1607674858591" />
+    <state width="1252" height="355" key="GridCell.Tab.0.left/1680.25.1024.743/0.25.1680.951@0.25.1680.951" timestamp="1607671189981" />
+    <state width="1638" height="211" key="GridCell.Tab.0.right" timestamp="1607949631735">
+      <screen x="1680" y="0" width="1024" height="768" />
     </state>
     <state width="1145" height="269" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606655767442" />
-    <state width="1346" height="254" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606997197035" />
+    <state width="1252" height="837" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1607867295750" />
     <state width="1346" height="430" key="GridCell.Tab.0.right/0.25.1680.951@0.25.1680.951" timestamp="1607003562483" />
-    <state width="1212" height="411" key="GridCell.Tab.0.right/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607160816483" />
+    <state width="1252" height="2" key="GridCell.Tab.0.right/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607934684096" />
     <state width="1212" height="411" key="GridCell.Tab.0.right/1680.0.1024.768/0.0.1680.1050@0.25.1680.951" timestamp="1607160803825" />
-    <state width="1346" height="322" key="GridCell.Tab.0.right/1680.25.1024.743/0.0.1680.1050@0.0.1680.1050" timestamp="1606741247240" />
-    <state width="1212" height="486" key="GridCell.Tab.0.right/1680.25.1024.743/0.25.1680.951@0.25.1680.951" timestamp="1607089699559" />
-    <state width="1212" height="411" key="GridCell.Tab.1.bottom" timestamp="1607160816495">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="211" key="GridCell.Tab.0.right/1680.0.1024.768/0.0.1680.1050@1680.0.1024.768" timestamp="1607949631735" />
+    <state width="1252" height="355" key="GridCell.Tab.0.right/1680.25.1024.743/0.0.1680.1050@0.0.1680.1050" timestamp="1607674858593" />
+    <state width="1252" height="355" key="GridCell.Tab.0.right/1680.25.1024.743/0.25.1680.951@0.25.1680.951" timestamp="1607671189983" />
+    <state width="890" height="111" key="GridCell.Tab.1.bottom" timestamp="1607949631729">
+      <screen x="1680" y="0" width="1024" height="768" />
     </state>
     <state width="1145" height="269" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606655767444" />
-    <state width="1346" height="254" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606997197039" />
+    <state width="1252" height="837" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1607867295751" />
     <state width="1346" height="430" key="GridCell.Tab.1.bottom/0.25.1680.951@0.25.1680.951" timestamp="1607003562485" />
-    <state width="1212" height="411" key="GridCell.Tab.1.bottom/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607160816495" />
-    <state width="1346" height="322" key="GridCell.Tab.1.bottom/1680.25.1024.743/0.0.1680.1050@0.0.1680.1050" timestamp="1606741247242" />
-    <state width="1212" height="411" key="GridCell.Tab.1.bottom/1680.25.1024.743/0.25.1680.951@0.25.1680.951" timestamp="1607160803832" />
-    <state width="1212" height="411" key="GridCell.Tab.1.center" timestamp="1607160816490">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1252" height="2" key="GridCell.Tab.1.bottom/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607934684100" />
+    <state width="890" height="111" key="GridCell.Tab.1.bottom/1680.0.1024.768/0.0.1680.1050@1680.0.1024.768" timestamp="1607949631729" />
+    <state width="1252" height="355" key="GridCell.Tab.1.bottom/1680.25.1024.743/0.0.1680.1050@0.0.1680.1050" timestamp="1607674858596" />
+    <state width="1252" height="355" key="GridCell.Tab.1.bottom/1680.25.1024.743/0.25.1680.951@0.25.1680.951" timestamp="1607671189986" />
+    <state width="890" height="111" key="GridCell.Tab.1.center" timestamp="1607949631727">
+      <screen x="1680" y="0" width="1024" height="768" />
     </state>
     <state width="1145" height="269" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1606655767443" />
-    <state width="1346" height="254" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606997197038" />
+    <state width="1252" height="837" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1607867295751" />
     <state width="1346" height="430" key="GridCell.Tab.1.center/0.25.1680.951@0.25.1680.951" timestamp="1607003562484" />
-    <state width="1212" height="411" key="GridCell.Tab.1.center/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607160816490" />
-    <state width="1346" height="322" key="GridCell.Tab.1.center/1680.25.1024.743/0.0.1680.1050@0.0.1680.1050" timestamp="1606741247241" />
-    <state width="1212" height="411" key="GridCell.Tab.1.center/1680.25.1024.743/0.25.1680.951@0.25.1680.951" timestamp="1607160803831" />
-    <state width="1212" height="411" key="GridCell.Tab.1.left" timestamp="1607160816487">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1252" height="2" key="GridCell.Tab.1.center/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607934684099" />
+    <state width="890" height="111" key="GridCell.Tab.1.center/1680.0.1024.768/0.0.1680.1050@1680.0.1024.768" timestamp="1607949631727" />
+    <state width="1252" height="355" key="GridCell.Tab.1.center/1680.25.1024.743/0.0.1680.1050@0.0.1680.1050" timestamp="1607674858595" />
+    <state width="1252" height="355" key="GridCell.Tab.1.center/1680.25.1024.743/0.25.1680.951@0.25.1680.951" timestamp="1607671189985" />
+    <state width="890" height="111" key="GridCell.Tab.1.left" timestamp="1607949631726">
+      <screen x="1680" y="0" width="1024" height="768" />
     </state>
     <state width="1145" height="269" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1606655767443" />
-    <state width="1346" height="254" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606997197038" />
+    <state width="1252" height="837" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1607867295751" />
     <state width="1346" height="430" key="GridCell.Tab.1.left/0.25.1680.951@0.25.1680.951" timestamp="1607003562484" />
-    <state width="1212" height="411" key="GridCell.Tab.1.left/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607160816487" />
-    <state width="1346" height="322" key="GridCell.Tab.1.left/1680.25.1024.743/0.0.1680.1050@0.0.1680.1050" timestamp="1606741247241" />
-    <state width="1212" height="411" key="GridCell.Tab.1.left/1680.25.1024.743/0.25.1680.951@0.25.1680.951" timestamp="1607160803829" />
-    <state width="1212" height="411" key="GridCell.Tab.1.right" timestamp="1607160816492">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1252" height="2" key="GridCell.Tab.1.left/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607934684098" />
+    <state width="890" height="111" key="GridCell.Tab.1.left/1680.0.1024.768/0.0.1680.1050@1680.0.1024.768" timestamp="1607949631726" />
+    <state width="1252" height="355" key="GridCell.Tab.1.left/1680.25.1024.743/0.0.1680.1050@0.0.1680.1050" timestamp="1607674858594" />
+    <state width="1252" height="355" key="GridCell.Tab.1.left/1680.25.1024.743/0.25.1680.951@0.25.1680.951" timestamp="1607671189984" />
+    <state width="890" height="111" key="GridCell.Tab.1.right" timestamp="1607949631728">
+      <screen x="1680" y="0" width="1024" height="768" />
     </state>
     <state width="1145" height="269" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1606655767444" />
-    <state width="1346" height="254" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606997197039" />
+    <state width="1252" height="837" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1607867295751" />
     <state width="1346" height="430" key="GridCell.Tab.1.right/0.25.1680.951@0.25.1680.951" timestamp="1607003562484" />
-    <state width="1212" height="411" key="GridCell.Tab.1.right/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607160816492" />
-    <state width="1346" height="322" key="GridCell.Tab.1.right/1680.25.1024.743/0.0.1680.1050@0.0.1680.1050" timestamp="1606741247242" />
-    <state width="1212" height="411" key="GridCell.Tab.1.right/1680.25.1024.743/0.25.1680.951@0.25.1680.951" timestamp="1607160803831" />
-    <state width="1212" height="535" key="GridCell.Tab.2.bottom" timestamp="1607088041807">
+    <state width="1252" height="2" key="GridCell.Tab.1.right/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607934684100" />
+    <state width="890" height="111" key="GridCell.Tab.1.right/1680.0.1024.768/0.0.1680.1050@1680.0.1024.768" timestamp="1607949631728" />
+    <state width="1252" height="355" key="GridCell.Tab.1.right/1680.25.1024.743/0.0.1680.1050@0.0.1680.1050" timestamp="1607674858596" />
+    <state width="1252" height="355" key="GridCell.Tab.1.right/1680.25.1024.743/0.25.1680.951@0.25.1680.951" timestamp="1607671189986" />
+    <state width="1252" height="837" key="GridCell.Tab.2.bottom" timestamp="1607867295753">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1145" height="257" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606653215796" />
-    <state width="1212" height="535" key="GridCell.Tab.2.bottom/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607088041807" />
-    <state width="1346" height="322" key="GridCell.Tab.2.bottom/1680.25.1024.743/0.0.1680.1050@0.0.1680.1050" timestamp="1606741247193" />
-    <state width="1212" height="535" key="GridCell.Tab.2.center" timestamp="1607088041804">
+    <state width="1252" height="837" key="GridCell.Tab.2.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1607867295753" />
+    <state width="1252" height="837" key="GridCell.Tab.2.bottom/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607867249677" />
+    <state width="1252" height="465" key="GridCell.Tab.2.bottom/1680.25.1024.743/0.0.1680.1050@0.0.1680.1050" timestamp="1607674858580" />
+    <state width="1252" height="837" key="GridCell.Tab.2.center" timestamp="1607867295752">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1145" height="257" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1606653215794" />
-    <state width="1212" height="535" key="GridCell.Tab.2.center/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607088041804" />
-    <state width="1346" height="322" key="GridCell.Tab.2.center/1680.25.1024.743/0.0.1680.1050@0.0.1680.1050" timestamp="1606741247192" />
-    <state width="1212" height="535" key="GridCell.Tab.2.left" timestamp="1607088041803">
+    <state width="1252" height="837" key="GridCell.Tab.2.center/0.0.1680.1050@0.0.1680.1050" timestamp="1607867295752" />
+    <state width="1252" height="837" key="GridCell.Tab.2.center/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607867249675" />
+    <state width="1252" height="465" key="GridCell.Tab.2.center/1680.25.1024.743/0.0.1680.1050@0.0.1680.1050" timestamp="1607674858579" />
+    <state width="1252" height="837" key="GridCell.Tab.2.left" timestamp="1607867295752">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1145" height="257" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1606653215794" />
-    <state width="1212" height="535" key="GridCell.Tab.2.left/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607088041803" />
-    <state width="1346" height="322" key="GridCell.Tab.2.left/1680.25.1024.743/0.0.1680.1050@0.0.1680.1050" timestamp="1606741247191" />
-    <state width="1212" height="535" key="GridCell.Tab.2.right" timestamp="1607088041806">
+    <state width="1252" height="837" key="GridCell.Tab.2.left/0.0.1680.1050@0.0.1680.1050" timestamp="1607867295752" />
+    <state width="1252" height="837" key="GridCell.Tab.2.left/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607867249673" />
+    <state width="1252" height="465" key="GridCell.Tab.2.left/1680.25.1024.743/0.0.1680.1050@0.0.1680.1050" timestamp="1607674858578" />
+    <state width="1252" height="837" key="GridCell.Tab.2.right" timestamp="1607867295752">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1145" height="257" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1606653215795" />
-    <state width="1212" height="535" key="GridCell.Tab.2.right/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607088041806" />
-    <state width="1346" height="322" key="GridCell.Tab.2.right/1680.25.1024.743/0.0.1680.1050@0.0.1680.1050" timestamp="1606741247192" />
+    <state width="1252" height="837" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1607867295752" />
+    <state width="1252" height="837" key="GridCell.Tab.2.right/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607867249676" />
+    <state width="1252" height="465" key="GridCell.Tab.2.right/1680.25.1024.743/0.0.1680.1050@0.0.1680.1050" timestamp="1607674858580" />
     <state x="258" y="124" key="Maven.ArtifactSearchDialog" timestamp="1606642005467">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -445,28 +696,35 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="254" y="93" width="932" height="729" key="Registry/0.0.1440.900@0.0.1440.900" timestamp="1606634875723" />
-    <state x="281" y="109" width="1373" height="840" key="SettingsEditor" timestamp="1607081808917">
+    <state x="281" y="109" width="1373" height="840" key="SettingsEditor" timestamp="1607342668344">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="299" y="138" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1606640650175" />
-    <state x="281" y="109" width="1373" height="840" key="SettingsEditor/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607081808917" />
-    <state x="492" y="126" width="761" height="830" key="find.popup" timestamp="1607149211922">
+    <state x="281" y="109" width="1373" height="840" key="SettingsEditor/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607342668344" />
+    <state x="440" y="263" key="Vcs.Push.Dialog.v2" timestamp="1607225014182">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="440" y="263" key="Vcs.Push.Dialog.v2/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607225014182" />
+    <state x="2137" y="21" width="567" height="711" key="find.popup" timestamp="1607947533533">
+      <screen x="1680" y="0" width="1024" height="768" />
+    </state>
     <state x="422" y="108" width="595" height="711" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1606639880664" />
-    <state x="492" y="126" width="761" height="830" key="find.popup/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607149211922" />
+    <state x="862" y="29" width="818" height="830" key="find.popup/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607864505301" />
+    <state x="2137" y="21" width="567" height="711" key="find.popup/1680.0.1024.768/0.0.1680.1050@1680.0.1024.768" timestamp="1607947533533" />
     <state x="612" y="419" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1607159247002">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="612" y="419" key="git4idea.remote.GitConfigureRemotesDialog/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607159247002" />
-    <state x="256" y="209" key="new project wizard" timestamp="1607156882219">
+    <state x="225" y="258" key="new project wizard" timestamp="1607927805450">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="126" y="112" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1606654450830" />
-    <state x="256" y="209" key="new project wizard/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607156882219" />
-    <state x="302" y="250" key="spring file set editor" timestamp="1607081789310">
+    <state x="452" y="375" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1607178769479" />
+    <state x="225" y="258" key="new project wizard/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607927805449" />
+    <state x="458" y="294" key="new project wizard/1680.25.1024.743/0.0.1680.1050@0.0.1680.1050" timestamp="1607670888597" />
+    <state x="302" y="250" key="spring file set editor" timestamp="1607341832703">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="302" y="250" key="spring file set editor/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607081789310" />
+    <state x="302" y="250" key="spring file set editor/1680.0.1024.768/0.0.1680.1050@0.0.1680.1050" timestamp="1607341832703" />
   </component>
 </project>
